@@ -1,0 +1,131 @@
+.wrapper{
+margin:0;
+}
+.flexwrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    height:94%;
+}
+
+.title{
+    display:flex;
+    justify-content: center;
+}
+.content{
+    display:flex;
+    flex-grow:1;
+}
+.displayContainer{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+}
+.display{
+    display:flex;
+    justify-content: center;
+}
+.buttonTitle{
+    display:flex;
+    justify-content: center;
+}
+/* Box colors*/
+.boxes{
+    width:100%;
+    display:flex;
+    flex-grow:1;
+    
+}
+.jcenter{
+    justify-content: center;;
+}
+.jstart{
+    justify-content: flex-start;
+}
+.jend{
+    justify-content: flex-end;
+}
+.jspace{
+    justify-content: space-between;
+}
+.jspaceven{
+    justify-content: space-evenly;
+}
+.jspacearound{
+    justify-content: space-around;
+}
+.acenter{
+    align-items: center;
+}
+.astart{
+    align-items: flex-start;
+}
+.aend{
+    align-items: flex-end;
+}
+.aspaceB{
+    align-items: space-between;
+}
+.aspaceA{
+    align-items: space-around;
+}
+.aspaceE{
+    align-items: space-evenly;
+}
+.row{
+    flex-direction: row;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.column{
+    flex-direction: column;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+}
+.buttonContainer{
+    width:50%;
+}
+.buttonChoices{
+    padding-left:5px;
+    display:flex;
+    flex-direction: column;
+}
+.buttonChoices>div{
+    background-color: rgb(179, 103, 103);
+    border: solid black 2px;
+    margin-top:3px;
+    padding-left:3px;
+}
+.buttonChoices>div:hover{
+    background-color: rgb(144, 73, 211);
+}
+.selected{
+    background-color: rgb(144, 73, 211) !important;
+}
+.redBox{
+    width: 15%;
+    height:5em;
+    background-color: red;
+    border: solid black 2px;
+}
+.purpleBox{
+    width: 15%;
+     height:5em;
+    background-color: purple;
+    border: solid black 2px;
+}
+.blueBox{
+    width: 15%;
+     height:5em;
+    background-color: blue;
+    border: solid black 2px;
+}
+.greenBox{
+    width: 15%;
+     height:5em;
+    background-color: green;
+    border: solid black 2px;
+}

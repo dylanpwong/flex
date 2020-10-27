@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>tzhs test website</title>
+    <link rel="icon" type="image/png" href="tzlogo.jpg" />
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="flex.css">
+    <script></script>
+    <script src="./justify.js"></script>
+</head>
+
+<body class='wrapper'>
+    <div class=flexWrapper>
+        <div class='title'>Flex Example!</div>
+        <div class='content'>
+            <div class='buttonContainer'>
+                <div class='buttonTitle'>
+                    Buttons
+                </div>
+                <div class='Buttons'>
+                    <div class='buttonOptions'>
+                        <div class='buttonTitleOption'>Justify Content</div>
+                        <div class='buttonChoices'>
+                            <div class='justify'id='jstart'onclick="start()">flex-start</div>
+                            <div class='justify selected'id='jcenter'onclick="center()">center</div>
+                            <div class='justify'onclick="end()">flex-end</div>
+                            <div class='justify'onclick="spaceB()">space-between</div>
+                            <div class='justify'onclick="spaceE()">space-evenly</div>
+                            <div class='justify'onclick="spaceA()">space-around</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>Align Items</div>
+                        <div class='buttonChoices'>
+                            <div class='align selected'onclick="alignStart()">flex-start</div>
+                            <div class='align'onclick="alignCenter()">center</div>
+                            <div class='align'onclick="alignEnd()">flex-end</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>Flex Direction</div>
+                        <div class='buttonChoices'>
+                            <div class='dir selected'onclick="row()">row</div>
+                            <div class='dir'onclick="row_reverse()">row-reverse</div>
+                            <div class='dir'onclick="column()">column</div>
+                            <div class='dir'onclick="column_reverse()">column-reverse</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='displayContainer'>
+                <div class='display'>Display</div>
+                <div id='boxes'class='boxes jcenter row'>
+                    <div class='redBox'></div>
+                    <div class='blueBox'></div>
+                    <div class='greenBox'></div>
+                    <div class='purpleBox'> </div>
+                </div>
+            </div>
+        </div>
+        <div class='footer'></div>
+    </div>
+   
+</body>
+
+</html>
