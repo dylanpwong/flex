@@ -62,6 +62,7 @@ const center=(e)=>{
 const start = () => {
     const boxes = document.getElementById('boxes');
     // boxes.classList = '';
+    removeJustify();
     removeSelected(0);
     // boxes.classList.add('selected');
     boxes.classList.add("boxes");
